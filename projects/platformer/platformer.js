@@ -76,3 +76,11 @@ $(function () {
 
   registerSetup(setup);
 });
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Eef's Shucked Corn Cave</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    </head>
+</html>
