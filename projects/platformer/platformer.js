@@ -47,17 +47,20 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-
-
-
+createPlatform(0,450,350,20)
+createPlatform(350,350,350,20)
+createPlatform(700,450,350,20)
+createPlatform(1050,350,350,20)
     
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-
-
+createCollectable('diamond',500,300,0,0)
+createCollectable('diamond',850,400,0,0)
+createCollectable('diamond',1200,300,0,0)
+createCollectable('kennedi',1310,300,0,0)
 
 
     // TODO 3
@@ -65,6 +68,10 @@ $(function () {
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
+createCannon('bottom', 460, 1000, 25, 25)
+createCannon('top', 930, 1000, 25, 25)
+createCannon('bottom', 1160, 1000, 25, 25)
+createCannon('right', 750/2, 2000, 25, 25)
 
 
 
@@ -76,11 +83,3 @@ $(function () {
 
   registerSetup(setup);
 });
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Eef's Shucked Corn Cave</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    </head>
-</html>

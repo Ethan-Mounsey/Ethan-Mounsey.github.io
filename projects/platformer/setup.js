@@ -92,9 +92,9 @@ let animationDetails = {};
 
 var collectableList = {
   database: { image: "images/collectables/database.png" },
-  diamond: { image: "images/collectables/diamond-head.png" },
+  diamond: { image: "https://cdn.wikimg.net/en/zeldawiki/images/8/8e/TotK_Rupee_Icon.png" },
   grace: { image: "images/collectables/grace-head.png" },
-  kennedi: { image: "images/collectables/kennedi-head.png" },
+  kennedi: { image: "https://freepngimg.com/save/83833-tri-force-symmetry-of-zelda-triforce-triangle/512x512.png6" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
 };
