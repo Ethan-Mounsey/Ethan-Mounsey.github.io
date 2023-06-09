@@ -73,7 +73,7 @@ createCannon('bottom', 460, 1000, 25, 25)
 createCannon('top', 930, 1000, 25, 25)
 createCannon('bottom', 1160, 1000, 25, 25)
 createCannon('right', 750/2, 2000, 25, 25)
-
+createCannon('left', 750/2, 25000, 14000, 14000)
 
 
 
