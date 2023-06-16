@@ -21,13 +21,27 @@
             margin-bottom: 70px
         }
         .pic-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         * {
             background-color:black;
             color:white
+        }
+        #profile_pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 70px;
+        }
+        #name {
+            float: left;
+            margin-right: 5px;
+        }
+        #firstPic {
+            margin-top: 325px
         }
     </style>
 </head>
@@ -37,41 +51,47 @@
 
     <h1 class="brand-font">Catstagram</h1>
     <h5 class="brand-font">Sharing the World's cats</h5>
+    <div> 
+        <img id="profile_pic">
+        <div id="followers"></div>
+        <div id="name"></div> 
+        <div id="name_last"></div>
+    </div>
     <!-- PICTURE CONTAINER -->
     <div class="pic-container">
     <!--Cat Photo 1-->
-    <img src="https://images.unsplash.com/photo-1583524505974-6facd53f4597?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0JTIwYmFieXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80.png">
+    <img id="firstPic" src="https://images.unsplash.com/photo-1583524505974-6facd53f4597?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0JTIwYmFieXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80.png">
     <div id="likeCount1"></div>
    
-    <button id="likeBtn1">Like</button>
+    <button id="likeBtn1" onclick="likePhoto('likeCount1')">Like</button>
     <p class="caption">who he lookin at?</p>
     <!--Cat Photo 2-->
     <h5 class="brand-font">Sharing the World's cats</h5>
     <img src="https://coleandmarmalade.com/wp-content/uploads/2018/10/Cover-6.jpg">
     <div id="likeCount2"></div>
    
-    <button id="likeBtn2">Like</button>
+    <button id="likeBtn2" onclick="likePhoto('likeCount2')">Like</button>
     <p class="caption">bro is not a happy camper</p>
     <!--Cat Photo 3-->
     <h5 class="brand-font">Sharing the World's cats</h5>
     <img src="https://wallpapers-clan.com/wp-content/uploads/2022/07/funny-cat-3.jpg">
     <div id="likeCount3"></div>
    
-    <button id="likeBtn3">Like</button>
+    <button id="likeBtn3" onclick="likePhoto('likeCount3')">Like</button>
     <p class="caption"> me when i open chrome and my tabs are gone:</p>
     <!--Cat Photo 4-->
     <h5 class="brand-font">Sharing the World's cats</h5>
     <img src="https://i.ytimg.com/vi/YSHDBB6id4A/maxresdefault.jpg">
     <div id="likeCount4"></div>
        
-    <button id="likeBtn4">Like</button>
+    <button id="likeBtn4" onclick="likePhoto('likeCount4')">Like</button>
     <p class="caption">homie caught going for a swim</p>
     <!--Cat Photo 5-->
     <h5 class="brand-font">Sharing the World's cats</h5>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdYFkXI-8wiVt5rJJ7jEUqh_PUhE11HKBbfIZUOUpvCQ&usqp=CAU&ec=48665701.png">
     <div id="likeCount5"></div>
     
-    <button id="likeBtn5">Like</button>
+    <button id="likeBtn5" onclick="likePhoto('likeCount5')">Like</button>
     <p class="caption">poor guy likes milk too much for his own good</p>
     </div>
 </body>
