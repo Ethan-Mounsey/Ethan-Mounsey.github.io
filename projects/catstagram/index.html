@@ -13,6 +13,22 @@
         .brand-font {
             font-style: italic;
         }
+        img {
+            width: 300px;
+            border-radius: 5px;
+        }
+        .caption {
+            margin-bottom: 70px
+        }
+        .pic-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        * {
+            background-color:black;
+            color:white
+        }
     </style>
 </head>
 
@@ -21,40 +37,43 @@
 
     <h1 class="brand-font">Catstagram</h1>
     <h5 class="brand-font">Sharing the World's cats</h5>
+    <!-- PICTURE CONTAINER -->
+    <div class="pic-container">
     <!--Cat Photo 1-->
     <img src="https://images.unsplash.com/photo-1583524505974-6facd53f4597?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0JTIwYmFieXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80.png">
     <div id="likeCount1"></div>
    
     <button id="likeBtn1">Like</button>
-    <p>who he lookin at?</p>
+    <p class="caption">who he lookin at?</p>
     <!--Cat Photo 2-->
     <h5 class="brand-font">Sharing the World's cats</h5>
     <img src="https://coleandmarmalade.com/wp-content/uploads/2018/10/Cover-6.jpg">
     <div id="likeCount2"></div>
    
     <button id="likeBtn2">Like</button>
-    <p>bro is not a happy camper</p>
+    <p class="caption">bro is not a happy camper</p>
     <!--Cat Photo 3-->
     <h5 class="brand-font">Sharing the World's cats</h5>
     <img src="https://wallpapers-clan.com/wp-content/uploads/2022/07/funny-cat-3.jpg">
     <div id="likeCount3"></div>
    
     <button id="likeBtn3">Like</button>
-    <p>me when i open chrome and my tabs are gone:</p>
+    <p class="caption"> me when i open chrome and my tabs are gone:</p>
     <!--Cat Photo 4-->
     <h5 class="brand-font">Sharing the World's cats</h5>
     <img src="https://i.ytimg.com/vi/YSHDBB6id4A/maxresdefault.jpg">
     <div id="likeCount4"></div>
        
     <button id="likeBtn4">Like</button>
-    <p>homie caught going for a swim</p>
+    <p class="caption">homie caught going for a swim</p>
     <!--Cat Photo 5-->
     <h5 class="brand-font">Sharing the World's cats</h5>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdYFkXI-8wiVt5rJJ7jEUqh_PUhE11HKBbfIZUOUpvCQ&usqp=CAU&ec=48665701.png">
     <div id="likeCount5"></div>
     
     <button id="likeBtn5">Like</button>
-    <p>poor guy likes milk too much for his own good</p>
+    <p class="caption">poor guy likes milk too much for his own good</p>
+    </div>
 </body>
 
 </html>
